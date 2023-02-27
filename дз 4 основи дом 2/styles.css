@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(243, 235, 224);
+    transition: 1s;
+}
+
+.section-one {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    padding: 1vw 4vw;
+    background-color: rgb(19, 20, 34);
+    color:rgb(255, 255, 255);
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.last-click {
+    font-size: 2vw;
+    color: rgb(19, 20, 34);
+    transition: 0.5s;
+
+}
